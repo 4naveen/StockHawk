@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+    <string name="pref_display_mode_key">displayMode</string>
+    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key">absolute</string>
+    <string name="pref_display_mode_percentage_key">percentage</string>
+
+    <string name="default_stocks_yahoo">YHOO</string>
+    <string name="default_stocks_apple">AAPL</string>
+    <string name="default_stocks_microsoft">MSFT</string>
+    <string name="default_stocks_facebook">FB</string>
+
+
+    <string name="action_change_units">@string/pref_display_mode_key</string>
+
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.Please connect your Internet at least first time</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="appwidget_text">Stock hawk</string>
+    <string name="add_widget">Add widget</string>
+    <string name="your_stocks">your_stocks</string>
+
+    <string name="refreshing">Stock start refreshing</string>
+    <string name="add">Add new stock</string>
+    <string name="error">something wrong happen! app could not be start</string>
+    <string name="recyclerview">All stock list item</string>
+    <string name="chart_description">price variation chart</string>
+    <string name="graph_duration">Duration</string>
+    <string name="change_duration_desc">Change duration</string>
+    <string name="no_internet">No network available</string>
+    <string name="try_again_loading_graph">Try again</string>
+
+    <string-array name="time_spane">
+        <item>1Y</item>
+        <item>6M</item>
+        <item>3M</item>
+        <item>1M</item>
+    </string-array>
+</resources>
